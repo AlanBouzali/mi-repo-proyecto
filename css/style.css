@@ -93,6 +93,7 @@ align-items: center;
 width: 50px;
 height: 50px;
 margin: 10px 10px 10px 10px;
+border-radius: 15px 15px 15px 0px;
 }
 
 .navegacion section span{
@@ -177,7 +178,7 @@ a{
 
 .carouselExample button{
     background-color: grey;
-    
+
 }
 
                                         /* pagina de proyecto */
@@ -522,6 +523,12 @@ a img{
         flex-direction: column;
         justify-content: start;
         align-items: start;
+    }
+    .contacto_redes{
+        width: 50%;
+    }
+    .contacto{
+        margin: 20px;
 
     }
 }
