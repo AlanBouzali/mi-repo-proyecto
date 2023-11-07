@@ -271,7 +271,7 @@ a{
 
 .diseno div , .direccion div{
     border-bottom: 2px solid black;
-    
+
 }
 
 .diseno{
@@ -313,7 +313,7 @@ grid-column: 1/2;
 }
 .e_img{
 /*     grid-area: foto; */
-grid-row: 2/4;
+grid-row: 2/5;
 grid-column: 2/3;
     width: 100%;
     height: 100%;
