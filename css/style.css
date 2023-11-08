@@ -125,9 +125,6 @@ body{
     background-size: cover;
     background-position: center;
     width: 100%;
-                                        /*     position: relative;
-    padding-bottom: 100px;
-    min-height: 100vh; */
 }
 
                                         /* fin fondo pagina */
@@ -137,7 +134,6 @@ body{
                                         /* generales */
 
 .presentacion p{
-/*     margin-top: 800px; */
     text-align: center;
     background-color: rgba(128, 128, 128, 0.322);
     font-weight: 600;
@@ -149,7 +145,6 @@ h1{
 
 }
 h2{
-/*     color:red; */
 font-family: "Roboto";
 font-size: 16px;
 
@@ -178,7 +173,6 @@ a{
 
 .carouselExample button{
     background-color: grey;
-
 }
 
                                         /* fin index */
@@ -192,7 +186,6 @@ a{
     flex-wrap: wrap;
     margin: 10px 10px 10px 10px;
     padding: 10px 10px 10px 10px;
-    
 }
 
 .proyec_selec{
@@ -208,7 +201,6 @@ a{
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.445);
     padding: 10px;
     background-color: rgba(128, 128, 128, 0.5);
-
 }
 
 .nav_proy{
@@ -261,17 +253,14 @@ a{
 
 
 .serv_sec{
-/*     width: 100%; */
     height: 60vh;
     margin: 60px 60px 30px 60px;
     background-color: rgba(128, 128, 128, 0.199);
     border: 2px solid black;
-    
 }
 
 .diseno div , .direccion div{
     border-bottom: 2px solid black;
-
 }
 
 .diseno{
@@ -382,7 +371,6 @@ grid-column: 2/3;
     margin-top: 90px;
     margin-right: 10px;
     height: fit-content;
-
 }
 
 
@@ -408,15 +396,17 @@ a img{
 .ubicacion a img{
     width: 100%;
     height: 100%;
+    border: 2px solid gray;
 }
 
 .Formulario{
     background-color: rgba(128, 128, 128, 0.808);
+    border-radius: 10px;
     box-shadow: 5;
     width: 50%;
     height: 40vh;
-    margin-left: 10px;
-    margin-top: 20px;
+    margin: 20px -10px 20px 10px;
+    padding: 15px;
     display: flex;
 }
 
@@ -431,12 +421,16 @@ a img{
 .Formulario form label{
     margin-bottom: 15px;
 }
+
 .Formulario form input{
     width: 100%;
     height: 20px;
     margin-bottom: 15px;
-    border-radius: 2px;
+    border-radius: 5px;
 }
+
+/* pseudoclases --hay que hacerlos-- */
+
 
                                         /* footer */
 
