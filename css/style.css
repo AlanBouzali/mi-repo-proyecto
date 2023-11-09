@@ -175,6 +175,12 @@ a{
     background-color: grey;
 }
 
+.presentacion p{
+    margin: 15px;
+    height: 70px;
+    overflow: scroll;
+}
+
                                         /* fin index */
 
                                         /* pagina de proyecto */
@@ -358,36 +364,58 @@ grid-column: 2/3;
 .estudio{
     background-color: rgba(128, 128, 128, 0.26);
     width: 96%;
+    height: 96%;
     border: 1px solid grey;
     margin: 30px;
     border-radius: 15px;
     padding: 15px;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
 }
 
-.fundadores , .img_estudio{
-    width: 50%;
-}
-.fundadores h2{
-    width: 85%;
-    margin-left: 20px;
+
+.fundadores{
+    width: 43%;
+    margin-left: 15px;
+    align-self: flex-end;
 }
 
-.fundadores img{
+.text_equipo{
+    width: 40%;
+    height: auto;
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid rgb(65, 64, 64);
+    box-sizing: content-box;
+    background-color: rgba(128, 128, 128, 0.144);
     border-radius: 15px;
-    width: 90%;
-    margin: 17px;
-    margin-bottom: 20px;
-    flex-direction: column;
-    height: fit-content;
+}
+
+.img_estudio{
+    width: 53%;
+    align-self: flex-end;
 }
 
 .img_estudio img{
-    border-radius: 15px;
     width: 100%;
-    margin-top: 90px;
-    margin-right: 10px;
-    height: fit-content;
+    border: 2px solid rgb(65, 64, 64);
+    border-radius: 15px;
+}
+
+.fundadores img{
+    width: 100%;
+    border: 2px solid rgb(65, 64, 64);
+    border-radius: 15px;
+}
+
+.text_equipo h2{
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    text-align: start;
 }
 
 
