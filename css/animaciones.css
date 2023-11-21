@@ -1,0 +1,23 @@
+.contacto_redes a img{
+/*     background-image: linear-gradient(to right top, #615f5f, #696767, #706f70, #787878, #808080);*/
+    transition: all .5s;
+}
+.contacto_redes a img:hover{
+    /* background-image: linear-gradient(to left bottom, #615f5f, #696767, #706f70, #787878, #808080); */
+    transform: translate(10px,-10px);
+}
+
+.nav_item {
+    margin-left: 10px;
+    padding: 5px 10px;
+    display: flex;
+    transition: all .5s ease-in;
+    }
+
+.navegacion .navbar .nav_item:hover {
+/*     background-color: rgba(128, 128, 128, 0.26);
+    font-weight: 600; */
+    transform: translate(5px,5px);
+}
+
+
