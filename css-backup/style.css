@@ -1,0 +1,650 @@
+:root{
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../Font/Roboto-LightItalic.ttf);
+}
+
+                                        /* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+                                        /* navegador */
+
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+}
+
+.navegacion{
+/*     background-color: rgba(128, 128, 128, 0.801); */
+    background-image: url(../assets/img/Hormigon.png);
+    width: 100%;
+    height: 74px;
+    border-bottom: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+}
+
+.nav_item{
+    margin-left: 10px;
+    padding: 5px 10px;
+    display: flex;
+}
+
+
+.nav_item a{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.navegacion section span{
+    width: max-content;
+}
+
+.activo{
+    border-bottom: 2px solid black;
+} 
+
+/* pseudoclases */
+
+.nav_item:hover{
+    background-color: rgba(128, 128, 128, 0.26);
+    font-weight: 600;
+}
+
+.nav_item:active{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.445);
+}
+
+.nav_item a:hover{
+    color: white;
+}
+
+.activo:hover{
+    border-bottom: 2px solid white;
+}
+                                        /* logo de pagina */
+.navegacion section{
+width: auto;
+display: flex;
+justify-content: start;
+align-items: center;
+}
+
+.navegacion section a img{
+width: 50px;
+height: 50px;
+margin: 10px 10px 10px 10px;
+border-radius: 15px 15px 15px 0px;
+}
+
+.navegacion section span{
+    font-weight: bold;
+    color: black;
+}
+
+/* menu mobile */
+.navegacion label img{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 10px;
+    box-sizing: content-box;
+}
+
+#check_menu , .navegacion label{
+    display: none;
+}
+
+                                        /* fin navergador */
+
+                                        /* fondo de pagina */
+
+body{
+    font-family: "Roboto";
+    background-image: url(../assets/img/foto\ de\ portada.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+                                        /* fin fondo pagina */
+
+
+
+                                        /* generales */
+
+.presentacion p{
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.322);
+    font-weight: 600;
+}
+
+h1{
+    color: blue;
+    margin: 15px 15px 0px 15px;
+
+}
+h2{
+font-family: "Roboto";
+font-size: 16px;
+
+}
+h4{
+    background-color: grey;
+    color: blue;
+}
+a{
+    text-decoration: none;
+}
+
+
+                                        /* fin generales */
+
+                                        /* index */
+
+#body_index{
+    background-image: none;
+    background-color: rgba(241, 236, 236, 0.836);
+}
+.carousel_index{
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.carouselExample button{
+    background-color: grey;
+}
+
+.presentacion p{
+    margin: 15px;
+    height: 70px;
+    overflow: scroll;
+}
+
+                                        /* fin index */
+
+                                        /* pagina de proyecto */
+
+.proyectos_img{
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.proyec_selec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 400px;
+    margin: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.445);
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+.proyec_selec img{
+    margin-top: 15px;
+    border: 1px solid rgb(65, 64, 64);
+    border-radius: 15px;
+}
+
+.nav_proy{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav_proyectos{
+    width: 50%;
+    margin-left: 10px;
+    padding: 5px 10px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.445);
+    padding: 10px;
+}
+
+.nav_proyectos li a{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.proyec_selec p{
+    width: 80%;
+    height: 30%;
+    overflow: scroll;
+    border: 1.5px solid black;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 15px;
+}
+
+/* pseudoclases */
+
+.proyec_selec:hover{
+    background-color: rgba(204, 200, 200, 0.05);
+}
+
+.proyec_selec p:hover{
+    font-weight: 600;
+}
+
+                                        /* fin pag de proyecto */
+
+                                        /* servicios */
+
+
+.serv_sec{
+    height: 60vh;
+    margin: 60px 60px 30px 60px;
+    background-color: rgba(128, 128, 128, 0.26);
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.serv_sec div h2{
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 22px;
+    font: 600;
+}
+.diseno div , .direccion div{
+    border-bottom: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.diseno{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 35% 55%;
+    grid-template-rows: 40px 130px 130px 130px;
+    column-gap: 20px;
+    row-gap: 10px;
+    justify-items: stretch;
+}
+
+.a_titulo{
+    grid-row: 1/2;
+    grid-column: 1/3;
+}
+
+.b_texto{
+grid-row: 2/3;
+grid-column: 1/2;
+}
+.c_texto{
+grid-row: 3/4;
+grid-column: 1/2;
+}
+.d_texto{
+grid-row: 4/5;
+grid-column: 1/2;
+}
+.e_img{
+grid-row: 2/5;
+grid-column: 2/3;
+}
+
+.e_img img{
+    width: 100%;
+    height: 100%;
+    justify-self: center;
+    align-self: center;
+}
+
+.direccion{             
+    display: grid;
+    width: 100%;
+    grid-template-columns: 55% 35%;
+    grid-template-rows: 40px 130px 130px 130px;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+
+.titulo_a{
+    grid-row: 1/2;
+    grid-column: 1/3;
+}
+.img_b{
+    grid-row: 2/5;        
+    grid-column: 1/2;
+
+}
+.text_c{
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+.text_d{
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+.text_e{
+    grid-row: 4/5;
+    grid-column: 2/3;
+}
+.img_b img{
+    width: 100%;
+    height: 100%;
+}
+
+.b_texto p , .c_texto p , .d_texto p , .text_c p , .text_d p , .text_e p{
+    margin-top: 7px;
+}
+
+                                        /* fin servicios */
+
+                                        /* pag estudio */
+
+.estudio{
+    background-color: rgba(128, 128, 128, 0.26);
+    width: 96%;
+    height: 96%;
+    border: 1px solid grey;
+    margin: 30px;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+
+.fundadores{
+    width: 43%;
+    margin-left: 15px;
+    align-self: flex-end;
+}
+
+.text_equipo{
+    width: 40%;
+    height: auto;
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid rgb(65, 64, 64);
+    box-sizing: content-box;
+    background-color: rgba(128, 128, 128, 0.144);
+    border-radius: 15px;
+}
+
+.img_estudio{
+    width: 53%;
+    align-self: flex-end;
+}
+
+.img_estudio img{
+    width: 100%;
+    border: 2px solid rgb(65, 64, 64);
+    border-radius: 15px;
+}
+
+.fundadores img{
+    width: 100%;
+    border: 2px solid rgb(65, 64, 64);
+    border-radius: 15px;
+}
+
+.text_equipo h2{
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    text-align: start;
+}
+
+
+                                        /* fin pag estudio */
+
+
+
+a img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+                                        /* contacto */
+
+.contacto_fomr{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ubicacion a img{
+    width: 100%;
+    height: 100%;
+    border: 2px solid gray;
+}
+
+.Formulario{
+    background-color: rgba(128, 128, 128, 0.808);
+    border-radius: 10px;
+    box-shadow: 5;
+    width: 50%;
+    height: auto;
+    margin: 20px -10px 20px 10px;
+    padding: 15px;
+}
+
+.ubicacion{
+    width: 50%;
+}
+
+.Formulario form{
+    width: 100%;
+}
+
+.Formulario form label{
+    margin-bottom: 15px;
+}
+
+.Formulario form input{
+    width: 100%;
+    height: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+/* pseudoclases */
+
+.Formulario form input:hover{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.445);
+    background-color: rgba(0, 255, 255, 0.664);
+}
+
+.ubicacion a img:hover{
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.445);
+}
+
+
+                                        /* footer */
+
+.footer{        
+    background-image: url(../assets/img/Hormigon.png);;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contacto_redes a img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.contacto_redes{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.contacto{
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+/* pseudoclases */
+
+.contacto_redes a img:hover{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.445);
+}
+
+                                        /* fin footer */
+
+                                        /* media queries */
+
+@media only screen and (max-width: 1130px){
+    .proyectos_img{
+        justify-content: center;
+    }
+
+}
+
+@media only screen and (max-width: 870px){
+    .navbar {
+        width: auto;
+    }
+    .nav_item a{
+        text-align: left;
+    }
+    .img_estudio{
+        order: 10;
+        width: 50%;
+        overflow: hidden;
+        box-sizing: content-box;
+        align-self: flex-start;
+    }
+    .img_estudio img{
+        width: 500px;
+        transform: translate(-40px);
+        margin-right: 30px;
+    }
+    .fundadores{
+        align-self: flex-start;
+        width: 45%;
+        margin-top: 15px;
+        margin-right: 15px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .navegacion label{
+        display: block;
+    }
+    .navbar{
+        display: none;
+    }
+    .proyectos_img{
+        justify-content: center;
+    }
+
+    .nav_item{
+        margin-left: 60px;
+    }
+    .nav_item a{
+        font-size: 20px;
+    }
+    .navegacion #check_menu:checked ~ .navbar{
+        background-image: url(../assets/img/Hormigon.png);
+        width: 100%;
+        height: 100vh;
+        left: 0;
+        top: 60px;
+        position: absolute;
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .fundadores{
+        align-self: flex-start;
+        width: 100%;
+        margin-top: 15px;
+        margin-right: 15px;
+    }
+    .text_equipo{
+        width: 100%;
+    }
+    .img_estudio{
+        order: 10;
+        width: 50%;
+        overflow: hidden;
+        box-sizing: content-box;
+        align-self: flex-start;
+    }
+    .img_estudio img{
+        width: 500px;
+        transform: translate(-40px);
+        margin-right: 30px;
+    }
+
+    .contacto_redes{
+        width: 50%;
+    }
+    .contacto{
+        margin: 20px;
+    }
+
+    .proyec_selec{
+        width: 80%;
+        height: 70vh;
+    }
+    .proyec_selec img{
+        width: 80%;
+        height: auto;
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (max-width: 623px){
+
+    .Formulario{
+        width: 90%;
+    }
+    .ubicacion{
+        width: 90%;
+    }
+    .img_estudio{
+        width: 100%;
+        
+    }
+}

@@ -1,0 +1,109 @@
+/* aqui van los media */
+
+@media only screen and (max-width: 1130px){
+    .proyectos_img{
+        justify-content: center;
+    }
+    .img_estudio{
+        grid-row: 2/4;
+    }
+    .fundadores{
+        grid-row: 4/6;
+    }
+}
+@media only screen and (max-width: 870px){
+    .navbar {
+        width: auto;
+        .nav_item a{
+            text-align: left;
+        }
+    }
+/*     .img_estudio{
+        
+        img{
+            
+        }
+    }
+    .fundadores{
+        
+    } */
+}
+@media only screen and (max-width: 768px){
+    .navegacion{
+        .navbar{
+            display: none;
+            .nav_item{
+                margin-left: 60px;
+                a{
+                    font-size: 20px;
+                }
+            }
+        }
+        label{
+            display: block;
+        }
+        
+    }
+    .navegacion #check_menu:checked ~ .navbar{
+        background-image: url(../assets/img/Hormigon.png);
+        width: 100%;
+        height: 100vh;
+        left: 0;
+        top: 60px;
+        position: absolute;
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+    .proyectos_img{
+        justify-content: center;
+        .proyec_selec{
+            width: 80%;
+            height: 70vh;
+            img{
+                width: 80%;
+                height: auto;
+                margin-top: 25px;
+            }
+        }
+    }
+/*     .img_estudio{
+        .text_equipo{
+            width: 100%;
+        }
+        .img_estudio{
+            
+            img{
+                
+        }
+        .fundadores{
+            
+        }
+    } */
+    .footer{
+        .contacto_redes{
+            width: 50%;
+            }
+        .contacto{
+            margin: 20px;
+        }
+    }
+}
+@media only screen and (max-width: 623px){
+    .contacto_fomr{
+        .Formulario{
+            width: 90%;
+        }
+        .ubicacion{
+            width: 90%;
+        }
+    }
+    .estudio{
+        .img_estudio{
+            width: 100%;
+        }
+    }
+}
+
