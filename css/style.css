@@ -559,14 +559,20 @@ header {
     padding: 30px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
   .estudio .prrfo1, .estudio .prrfo2, .estudio .prrfo3, .estudio .prrfo4 {
     width: 90%;
+    padding: 10px;
+    margin-left: 15px;
   }
   .estudio .galeria_estudio {
     display: inline;
     width: 90%;
     height: 250px;
+    padding: 10px;
+    margin-left: 15px;
+    border: 1px solid grey;
   }
   .estudio .img_estudio {
     display: none;

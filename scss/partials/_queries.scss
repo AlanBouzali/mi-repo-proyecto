@@ -104,13 +104,19 @@
         padding: 30px;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         .prrfo1 , .prrfo2 , .prrfo3 , .prrfo4{
             width: 90%;
+            padding: 10px;
+            margin-left: 15px;
         }
         .galeria_estudio{
             display: inline;
             width: 90%;
             height: 250px;
+            padding: 10px;
+            margin-left: 15px;
+            border: 1px solid grey;
         }
         .img_estudio{
             display: none;
