@@ -4,11 +4,15 @@
     .proyectos_img{
         justify-content: center;
     }
-    .img_estudio{
-        grid-row: 2/4;
-    }
-    .fundadores{
-        grid-row: 4/6;
+    .estudio{
+        .img_estudio{
+            grid-row: 2/4;
+            padding-top: 0;
+        }
+        .fundadores{
+            grid-row: 3/5;
+            margin-top: 90px;
+        }
     }
 }
 @media only screen and (max-width: 870px){
@@ -18,15 +22,11 @@
             text-align: left;
         }
     }
-/*     .img_estudio{
-        
-        img{
-            
+    .estudio{
+        .prrfo1 , .prrfo2 , .prrfo3 , .prrfo4{
+            line-height: 20px;
         }
     }
-    .fundadores{
-        
-    } */
 }
 @media only screen and (max-width: 768px){
     .navegacion{
@@ -42,7 +42,6 @@
         label{
             display: block;
         }
-        
     }
     .navegacion #check_menu:checked ~ .navbar{
         background-image: url(../assets/img/Hormigon.png);
@@ -57,6 +56,15 @@
         justify-content: start;
         align-items: start;
     }
+    .estudio{
+        .prrfo1 , .prrfo2 , .prrfo3 , .prrfo4{
+            line-height: 20px;
+        }
+    }
+    .nav_proy .nav_proyectos{
+        width: 100%;
+        margin: 15px;
+    }
     .proyectos_img{
         justify-content: center;
         .proyec_selec{
@@ -69,19 +77,6 @@
             }
         }
     }
-/*     .img_estudio{
-        .text_equipo{
-            width: 100%;
-        }
-        .img_estudio{
-            
-            img{
-                
-        }
-        .fundadores{
-            
-        }
-    } */
     .footer{
         .contacto_redes{
             width: 50%;
@@ -101,8 +96,33 @@
         }
     }
     .estudio{
+        background-color: rgba(128, 128, 128, 0.26);
+        width: 90%;
+        border: 1px solid grey;
+        margin: 30px;
+        border-radius: 15px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .prrfo1 , .prrfo2 , .prrfo3 , .prrfo4{
+            width: 90%;
+            padding: 10px;
+            margin-left: 15px;
+        }
+        .galeria_estudio{
+            display: inline;
+            width: 90%;
+            height: 250px;
+            padding: 10px;
+            margin-left: 15px;
+            border: 1px solid grey;
+        }
         .img_estudio{
-            width: 100%;
+            display: none;
+        }
+        .fundadores{
+            display: none;
         }
     }
 }

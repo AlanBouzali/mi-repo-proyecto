@@ -20,4 +20,22 @@
     transform: translate(5px,5px);
 }
 
+.galeria_estudio{
+    display: none;
+    width: 90%;
+    height: auto;
+    border-radius: 15px;
+    background-image: url(../assets/img/GaleriaEstudio/galeria1.jpg);
+    background-position: center;
+    background-size: cover;
+    animation: galeria 20s infinite;
+}
 
+@keyframes galeria {
+    0%, 100%{
+        background-image: url(../assets/img/GaleriaEstudio/galeria1.jpg);
+    }
+    50% {
+        background-image: url(../assets/img/GaleriaEstudio/galeria2.jpg);
+    }
+}
