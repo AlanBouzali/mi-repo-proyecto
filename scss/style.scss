@@ -169,10 +169,6 @@ header{
     column-gap: 20px;
     row-gap: 10px;
     justify-items: stretch;
-/*     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: flex-start; */
     .prrfo1{
         width: 100%;
         height: auto;
@@ -180,7 +176,7 @@ header{
         grid-row: 1/2;
         grid-column: 1/3;
     }
-    .prrfo2{
+        .prrfo2{
         width: 100%;
         height: auto;
         line-height: 45px;
