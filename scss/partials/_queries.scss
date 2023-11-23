@@ -14,6 +14,9 @@
             margin-top: 90px;
         }
     }
+/*     .direccion{
+        grid-template-columns: 55% 35%;
+    } */
 }
 @media only screen and (max-width: 870px){
     .navbar {
@@ -25,6 +28,11 @@
     .estudio{
         .prrfo1 , .prrfo2 , .prrfo3 , .prrfo4{
             line-height: 20px;
+        }
+    }
+    .serv_sec{
+        .diseno , .direccion{
+            grid-template-rows: 40px 230px 230px 230px;
         }
     }
 }
@@ -57,6 +65,7 @@
         align-items: start;
     }
     .estudio{
+        background-color: rgba(128, 128, 128, 0.555);
         .prrfo1 , .prrfo2 , .prrfo3 , .prrfo4{
             line-height: 20px;
         }
@@ -75,6 +84,13 @@
                 height: auto;
                 margin-top: 25px;
             }
+        }
+    }
+    .serv_sec{
+        .diseno , .direccion{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
     }
     .footer{
@@ -96,7 +112,7 @@
         }
     }
     .estudio{
-        background-color: rgba(128, 128, 128, 0.26);
+        background-color: rgba(128, 128, 128, 0.555);
         width: 90%;
         border: 1px solid grey;
         margin: 30px;
@@ -123,6 +139,18 @@
         }
         .fundadores{
             display: none;
+        }
+    }
+    .proyectos_img{
+        .proyec_selec{
+            img{
+                margin: 50px 50px;
+            }
+            p{
+                box-sizing: content-box;
+                overflow: hidden;
+                padding-bottom: 50px;
+            }
         }
     }
 }
