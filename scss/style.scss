@@ -16,11 +16,11 @@
                                         /* fin reset */
                                         /* generales */
 body{
-    font-family: "Roboto";
+    font-family: $fuente;
     background-image: url(../assets/img/foto\ de\ portada.jpg);
     background-size: cover;
     background-position: center;
-    width: 100%;
+    width: $ancho;
 }
 .presentacion p{
     text-align: center;
@@ -33,7 +33,7 @@ h1{
     margin: 15px 15px 0px 15px;
 }
 h2 , h3{
-    font-family: "Roboto";
+    font-family: $fuente;
     font-size: 16px;
 }
 h4{
@@ -43,6 +43,7 @@ h4{
 a{
     text-decoration: none;
 }
+/* boton arriba */
 a img{
     width: 50px;
     height: 50px;
@@ -57,7 +58,7 @@ header{
 }
 .navegacion {
     background-image: url(../assets/img/Hormigon.png);
-    width: 100%;
+    width: $ancho;
     height: 74px;
     border-bottom: 2px solid black;
     display: flex;
@@ -92,7 +93,7 @@ header{
         }
     }
     .navbar {
-        width: 50%;
+        width: $ancho/2;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -299,11 +300,9 @@ header{
                                         /* fin proy */
                                         /* servicios */
 .serv_sec{
-    height: 60vh;
-    margin: 60px 60px 30px 60px;
-    background-color: rgba(128, 128, 128, 0.26);
-    border: 2px solid black;
-    border-radius: 7px;
+    width: $ancho;
+    margin: 60px 60px 30px 30px;
+    
     h2{
         margin-left: 10px;
         margin-top: 15px;
@@ -313,12 +312,16 @@ header{
     .diseno , .direccion{
         display: grid;
         width: 100%;
-        margin: 10px;
-        padding: 10px;
+        margin: 20px;
+        padding: 20px;
+        background-color: rgba(128, 128, 128, 0.575);
+        border: 2px solid black;
+        border-radius: 7px;
         grid-template-columns: 35% 55%;
-        grid-template-rows: 40px 150px 150px 150px;
+        grid-template-rows: 40px 180px 180px 180px;
         column-gap: 20px;
         row-gap: 10px;
+        justify-content: center;
         justify-items: stretch;
         div{
             border-bottom: 2px solid black;
@@ -379,6 +382,10 @@ header{
         .b_texto p , .c_texto p , .d_texto p , .text_c p , .text_d p , .text_e p{
             margin-top: 7px;
         }
+        
+    }
+    .direccion{
+        grid-template-columns: 55% 35%;
     }
 }
                                         /* fin serv */

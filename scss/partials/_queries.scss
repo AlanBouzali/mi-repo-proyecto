@@ -14,6 +14,9 @@
             margin-top: 90px;
         }
     }
+/*     .direccion{
+        grid-template-columns: 55% 35%;
+    } */
 }
 @media only screen and (max-width: 870px){
     .navbar {
@@ -25,6 +28,11 @@
     .estudio{
         .prrfo1 , .prrfo2 , .prrfo3 , .prrfo4{
             line-height: 20px;
+        }
+    }
+    .serv_sec{
+        .diseno , .direccion{
+            grid-template-rows: 40px 230px 230px 230px;
         }
     }
 }
@@ -76,6 +84,13 @@
                 height: auto;
                 margin-top: 25px;
             }
+        }
+    }
+    .serv_sec{
+        .diseno , .direccion{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
     }
     .footer{
