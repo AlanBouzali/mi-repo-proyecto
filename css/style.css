@@ -517,6 +517,9 @@ header {
     justify-content: start;
     align-items: start;
   }
+  .estudio {
+    background-color: rgba(128, 128, 128, 0.555);
+  }
   .estudio .prrfo1, .estudio .prrfo2, .estudio .prrfo3, .estudio .prrfo4 {
     line-height: 20px;
   }
@@ -551,7 +554,7 @@ header {
     width: 90%;
   }
   .estudio {
-    background-color: rgba(128, 128, 128, 0.26);
+    background-color: rgba(128, 128, 128, 0.555);
     width: 90%;
     border: 1px solid grey;
     margin: 30px;
@@ -579,6 +582,14 @@ header {
   }
   .estudio .fundadores {
     display: none;
+  }
+  .proyectos_img .proyec_selec img {
+    margin: 50px 50px;
+  }
+  .proyectos_img .proyec_selec p {
+    box-sizing: content-box;
+    overflow: hidden;
+    padding-bottom: 50px;
   }
 }
 
