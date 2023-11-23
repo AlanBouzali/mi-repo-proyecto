@@ -295,6 +295,7 @@ header {
   transform: scale(1.03);
 }
 .proyectos_img .proyec_selec img {
+  width: 85%;
   margin-top: 15px;
   border: 1px solid rgb(65, 64, 64);
   border-radius: 15px;
@@ -549,7 +550,7 @@ header {
   }
   .proyectos_img .proyec_selec img {
     width: 80%;
-    height: auto;
+    height: 45%;
     margin-top: 25px;
   }
   .serv_sec .diseno, .serv_sec .direccion {
