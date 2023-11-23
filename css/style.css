@@ -329,8 +329,10 @@ header {
 .serv_sec .diseno, .serv_sec .direccion {
   display: grid;
   width: 100%;
+  margin: 10px;
+  padding: 10px;
   grid-template-columns: 35% 55%;
-  grid-template-rows: 40px 130px 130px 130px;
+  grid-template-rows: 40px 150px 150px 150px;
   column-gap: 20px;
   row-gap: 10px;
   justify-items: stretch;
