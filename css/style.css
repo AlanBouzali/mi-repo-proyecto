@@ -308,7 +308,7 @@ header {
   height: 70%;
 }
 .proyectos_img .proyec_selec:hover {
-  background-color: rgba(204, 200, 200, 0.05);
+  background-color: rgba(204, 200, 200, 0.979);
   transform: scale(1.03);
 }
 .proyectos_img .proyec_selec img {
