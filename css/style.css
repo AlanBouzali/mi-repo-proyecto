@@ -164,6 +164,16 @@ header {
   background-color: rgba(128, 128, 128, 0.589);
 }
 
+.fondo_text_index {
+  background-image: url(../assets/img/Hormigon.png);
+  padding: 20px 0 20px 0;
+  margin: 5px 15px 0 15px;
+}
+
+.titulo_princ {
+  padding-left: 35%;
+}
+
 .presentacion p {
   margin: 30px;
   padding: 20px;
