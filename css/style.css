@@ -336,6 +336,20 @@ header {
 .proyectos_img .proyec_selec p:hover {
   font-weight: 600;
 }
+.proyectos_img .proyec_selec .boton_proy {
+  width: 45%;
+  height: 35px;
+  background-color: rgb(128, 122, 122);
+  color: white;
+  border: 1px solid rgb(65, 64, 64);
+  border-radius: 15px;
+}
+.proyectos_img .proyec_selec .boton_proy:hover {
+  box-shadow: 3px 3px black;
+}
+.proyectos_img .proyec_selec .boton_proy:active {
+  box-shadow: 0 0;
+}
 
 /* fin proy */
 /* servicios */
