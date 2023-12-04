@@ -35,11 +35,11 @@
             text-align: left;
         }
     }
-    .estudio{
+/*     .estudio{
         .prrfo1 , .prrfo2 , .prrfo3 , .prrfo4{
             line-height: 20px;
         }
-    }
+    } */
     .serv_sec{
         .diseno , .direccion{
             grid-template-rows: 40px 230px 230px 230px;
@@ -80,10 +80,10 @@
         }
     }
     .estudio{
-        background-color: rgba(128, 128, 128, 0.555);
-        .prrfo1 , .prrfo2 , .prrfo3 , .prrfo4{
+        background-color: rgba(128, 128, 128, 0.755);
+/*         .prrfo1 , .prrfo2 , .prrfo3 , .prrfo4{
             line-height: 20px;
-        }
+        } */
     }
     .nav_proy .nav_proyectos{
         width: 100%;
@@ -145,7 +145,7 @@
         }
     }
     .estudio{
-        background-color: rgba(128, 128, 128, 0.555);
+        background-color: rgba(128, 128, 128, 0.755);
         width: 90%;
         border: 1px solid grey;
         margin: 30px;
@@ -158,6 +158,8 @@
             width: 90%;
             padding: 10px;
             margin-left: 15px;
+            margin-top: 10px;
+            font-size: 16px;
         }
         .galeria_estudio{
             display: inline;

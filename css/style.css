@@ -186,7 +186,7 @@ header {
 /* fin index */
 /* estudio */
 .estudio {
-  background-color: rgba(128, 128, 128, 0.685);
+  background-color: rgba(128, 128, 128, 0.836);
   width: 95%;
   border: 1px solid grey;
   margin: 30px;
@@ -540,9 +540,11 @@ header {
   .navbar .nav_item a {
     text-align: left;
   }
-  .estudio .prrfo1, .estudio .prrfo2, .estudio .prrfo3, .estudio .prrfo4 {
-    line-height: 20px;
-  }
+  /*     .estudio{
+          .prrfo1 , .prrfo2 , .prrfo3 , .prrfo4{
+              line-height: 20px;
+          }
+      } */
   .serv_sec .diseno, .serv_sec .direccion {
     grid-template-rows: 40px 230px 230px 230px;
   }
@@ -577,10 +579,10 @@ header {
     line-height: 25px;
   }
   .estudio {
-    background-color: rgba(128, 128, 128, 0.555);
-  }
-  .estudio .prrfo1, .estudio .prrfo2, .estudio .prrfo3, .estudio .prrfo4 {
-    line-height: 20px;
+    background-color: rgba(128, 128, 128, 0.755);
+    /*         .prrfo1 , .prrfo2 , .prrfo3 , .prrfo4{
+                line-height: 20px;
+            } */
   }
   .nav_proy .nav_proyectos {
     width: 100%;
@@ -634,7 +636,7 @@ header {
     font-size: 16px;
   }
   .estudio {
-    background-color: rgba(128, 128, 128, 0.555);
+    background-color: rgba(128, 128, 128, 0.755);
     width: 90%;
     border: 1px solid grey;
     margin: 30px;
@@ -648,6 +650,8 @@ header {
     width: 90%;
     padding: 10px;
     margin-left: 15px;
+    margin-top: 10px;
+    font-size: 16px;
   }
   .estudio .galeria_estudio {
     display: inline;
