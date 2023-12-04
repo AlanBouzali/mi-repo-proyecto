@@ -179,8 +179,8 @@ header {
   padding: 20px;
   line-height: 35px;
   height: auto;
-  text-align: justify;
-  font-size: 20px;
+  text-align: start;
+  font-size: 25px;
 }
 
 /* fin index */
@@ -625,6 +625,13 @@ header {
   }
   .contacto_fomr .ubicacion {
     width: 90%;
+  }
+  .carousel_index {
+    margin: 0 10px 0 10px;
+    padding: 10px 10px 0 10px;
+  }
+  .presentacion p {
+    font-size: 16px;
   }
   .estudio {
     background-color: rgba(128, 128, 128, 0.555);
