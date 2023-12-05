@@ -593,9 +593,10 @@ header {
   }
   .estudio {
     background-color: rgba(128, 128, 128, 0.755);
-    /*         .prrfo1 , .prrfo2 , .prrfo3 , .prrfo4{
-                line-height: 20px;
-            } */
+  }
+  .estudio .fundadores {
+    grid-row: 4/5;
+    margin-top: 50px;
   }
   .nav_proy .nav_proyectos {
     width: 100%;
@@ -626,9 +627,6 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
-  .fundadores {
-    grid-row: 4/5;
   }
   .footer .contacto_redes {
     width: 50%;
