@@ -478,6 +478,16 @@ header {
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.445);
   background-color: rgba(0, 255, 255, 0.664);
 }
+.contacto_fomr .Formulario form textarea {
+  width: 100%;
+  height: 75px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+.contacto_fomr .Formulario form textarea:hover {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.445);
+  background-color: rgba(0, 255, 255, 0.664);
+}
 .contacto_fomr .ubicacion {
   width: 50%;
 }
@@ -495,7 +505,7 @@ header {
 .footer {
   background-image: url(../assets/img/Hormigon.png);
   width: "100%";
-  height: 300px;
+  height: 330px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
