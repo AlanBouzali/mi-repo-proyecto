@@ -552,28 +552,49 @@ header{
 }
                                         /* fin footer */
                                         /* pag error-404 */
-body {
+.error_404{
     width: $ancho;
+    background-image: url(../assets/img/Hormigon.jpg);;
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 50px;
-}
-.titulo_error{
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-.mesaje_info{
+    .titulo_error{
+        font-size: 46px;
+        color: black;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+/*     .mesaje_info{
+        img{
+            width: 200px;
+            height: 200px;
+        }
+        h2{
+        font-size: 50px;
+        }
+    } */
     img{
-        width: 80px;
-        height: 80px;
-        margin-left: 50%;
+        width: 300px;
+        margin: 20px;
     }
     h2{
-    font-size: 18px;
+        font-size: 25px;
     }
-}
-.mensaje_error{
-    font-size: 16px;
+    .mensaje_error{
+        font-size: 20px;
+        margin: 20px;
+    }
+    a{
+        width: 75px;
+        background-color: grey;
+        padding: 10px;
+        border: solid 1.5px black;
+        border-radius: 15px;
+        & :hover{
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.514);
+            color: white;
+        }
+    }
 }
                                         /* fin pag error-404 */
 @import "./partials/queries";
