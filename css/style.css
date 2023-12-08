@@ -573,15 +573,6 @@ header {
   font-family: Arial, sans-serif;
   text-align: center;
   padding: 50px;
-  /*     .mesaje_info{
-          img{
-              width: 200px;
-              height: 200px;
-          }
-          h2{
-          font-size: 50px;
-          }
-      } */
 }
 .error_404 .titulo_error {
   font-size: 46px;
@@ -601,7 +592,6 @@ header {
   margin: 20px;
 }
 .error_404 a {
-  width: 75px;
   background-color: grey;
   padding: 10px;
   border: solid 1.5px black;
@@ -784,6 +774,35 @@ header {
     box-sizing: content-box;
     overflow: hidden;
     padding-bottom: 50px;
+  }
+  .error_404 .titulo_error {
+    font-size: 36px;
+  }
+  .error_404 img {
+    width: 250px;
+  }
+  .error_404 h2 {
+    font-size: 21px;
+  }
+  .error_404 .mensaje_error {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .error_404 .titulo_error {
+    font-size: 27px;
+  }
+  .error_404 img {
+    width: 185px;
+  }
+  .error_404 h2 {
+    font-size: 16px;
+  }
+  .error_404 .mensaje_error {
+    font-size: 16px;
+  }
+  .error_404 a {
+    padding: 5px;
   }
 }
 
