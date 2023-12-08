@@ -551,7 +551,31 @@ header{
     }
 }
                                         /* fin footer */
-
+                                        /* pag error-404 */
+body {
+    width: $ancho;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+.titulo_error{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.mesaje_info{
+    img{
+        width: 80px;
+        height: 80px;
+        margin-left: 50%;
+    }
+    h2{
+    font-size: 18px;
+    }
+}
+.mensaje_error{
+    font-size: 16px;
+}
+                                        /* fin pag error-404 */
 @import "./partials/queries";
 
 
